@@ -11,16 +11,59 @@
     <link href="" rel="stylesheet">
 
     <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
         .nav {
             background-color: black;
+            height: 100px;
+            width: 100%;
+        }
+
+        .container {
+            margin: auto;
+            max-width: 960px;
+            width: 100%;
+        }
+
+        .logo {
+            float: left;
+            width: 320px;
+        }
+
+        .menu {
+            color: white;
+            display: inline-block;
+            float: left;
+            padding-top: 20px;
+            width: 300px;
+        }
+
+        .menu>li {
+            display: inline-block;
+            padding: 0 10px 0 0;
         }
     </style>
 </head>
 
 <body>
     <nav class="nav">
-        <div>
-            <img src="assets/images/logo.png" alt="Cloudie">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Cloudie">
+            </div>
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
         </div>
     </nav>
 </body>
