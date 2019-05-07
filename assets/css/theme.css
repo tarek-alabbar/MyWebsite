@@ -16,3 +16,36 @@ body {
     font-size: 20px;
     padding: 0 10px 0 0;
 }
+
+header{
+    background-image: url('../images/header.jpg');
+    background-position: center center;
+    height: 700px;
+    width: 100%;
+}
+
+.header-title{
+    color: white;
+    font-size: 65px;
+    text-transform: uppercase;
+    background-color: #2f3539;
+    width: 700px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.call-to-action{
+    background-color: chocolate;
+    height: 230px;
+    width: 100%;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.intro > p{
+    color: white;
+}

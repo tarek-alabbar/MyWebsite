@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h1, h3{
+    margin: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -32,4 +36,19 @@ ul {
 
 .menu>li {
     display: inline-block;
+}
+
+.title-wrapper{
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.intro{
+    width: 50%;
+}
+
+.intro-right{
+    float: left;
+    width: 50%;
 }
