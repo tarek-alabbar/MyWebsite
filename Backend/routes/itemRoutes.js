@@ -13,8 +13,8 @@ router.delete('/:id', deleteItem)
 
 /* 
     'cleaner' way
-router.route('/').get(getGoals).post(setGoal)
-router.route('/:id').put(updateGoal).delete(deleteGoal)
+router.route('/').get(getItems).post(setItem)
+router.route('/:id').put(updateItem).delete(deleteItem)
 */
 
 module.exports = router
