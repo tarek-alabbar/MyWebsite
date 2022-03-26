@@ -6,10 +6,12 @@ const {
     updateItem,
     deleteItem } = require('../controllers/itemController')
 
-router.get('/', getItems)
-router.post('/', setItem)
-router.put('/:id', updateItem)
-router.delete('/:id', deleteItem)
+    const {protect} = require('../middleware/authMiddleware')
+
+router.get('/', protect, getItems)
+router.post('/', protect,  setItem)
+router.put('/:id', protect, updateItem)
+router.delete('/:id', protect, deleteItem)
 
 /* 
     'cleaner' way
